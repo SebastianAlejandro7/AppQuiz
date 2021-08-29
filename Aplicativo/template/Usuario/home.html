@@ -1,0 +1,18 @@
+Bienvenido {{user}}
+{% block contenido %}
+	<h3>Esta es nuestra página de inicio</h3>
+
+<form action="http://127.0.0.1:8000/jugar">
+        <input type="submit" value="Ir a jugar" />
+</form>
+
+
+<form action="http://127.0.0.1:8000/tablero">
+        <input type="submit" value="Mejores Jugadores" >
+</form>
+
+<a href="http://www.google.com" target="_parent"><button>Google!</button></a>
+
+
+
+{% endblock %}
