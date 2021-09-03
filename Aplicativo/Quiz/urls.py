@@ -12,7 +12,7 @@ from .views import (
 
 urlpatterns = [
 
-	path('',inicio, name='inicio'),
+	path('inicio',inicio, name='inicio'),
 	path('',HomeUsuario, name='HomeUsuario'),
 
 	path('login/',loginView, name='login'),

@@ -6,9 +6,9 @@ from .forms import RegistroFormulario, UsuarioLoginFormulario
 
 from .models import QuizUsuario, Pregunta, PreguntasRespondidas
 
-from django.contrib.auth.decorators import login_required
+# from django.contrib.auth.decorators import login_required
 
-@login_required(login_url='/example url you want redirect/')
+# @login_required(login_url='/')
 
 def inicio(request):
 
